@@ -1,0 +1,21 @@
+This directory is currently (mostly) empty in the revision control.
+All of the graphics and various other files are derived from the games
+Battle for Wesnoth and Chromium B.S.U. If you have those games installed,
+you can create the assets by typing:
+
+../tools/makeassets .
+
+from this directory. It will expect Wesnoth is located in
+/usr/share/games/wesnoth/data,
+and Chromium is located in
+/usr/share/games/chromium.
+
+If they located somewhere else, pass them on the command line to makeassets.
+
+Other assets (stored in the 'work' directory):
+Nebula: NASA (RCW49; Public domain)
+    http://www.nasa.gov/images/content/59928main_rcw19-052704-browse.jpg
+    (Modified to blend edges with Wesnoth star backdrop)
+Planet: NASA (Mars; Public domain)
+    http://en.wikipedia.org/wiki/File:2005-1103mars-full.jpg
+    (Modified to remove black background)
